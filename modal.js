@@ -10,6 +10,7 @@ var span = document.getElementsByClassName("close")[0];
 // when btn object clicked(event) then the anymous function is heppening
 btn.onclick = function () {
     modal.style.display = "block";
+
 };
 
 // whenever the "X" = &times; is clicked the dispaly will go back to none
@@ -23,3 +24,4 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 };
+
